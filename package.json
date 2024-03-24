@@ -1,6 +1,6 @@
 {
 	"name": "starter-freya-fractal-starterkit",
-	"version": "3.0.0",
+	"version": "4.4.0",
 	"description": "StarterFreya is a modern template theme",
 	"main": "app.js",
 	"author": "StarterTeam",
@@ -90,7 +90,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@gitlab.com:starterteam/team/starter-freya.git"
+		"url": "git+ssh://git@gitlab.com:starterteam/team/starter-freya-fractal-starterkit.git"
 	},
 	"keywords": [
 		"frontend",
@@ -99,5 +99,5 @@
 	"bugs": {
 		"url": "https://gitlab.com/starterteam/team/base/-/issues"
 	},
-	"homepage": "https://gitlab.com/starterteam/team/starter-freya/FractalFrontend/#readme"
+	"homepage": "https://gitlab.com/starterteam/team/starter-freya-fractal-starterkit/#readme"
 }
