@@ -1,4 +1,4 @@
-# Frontend theme StarterFreya
+# Frontend theme Starter Freya Fractal Starterkit
 
 ## Setup
 
@@ -37,20 +37,18 @@ $ npm start
 # build assets for production with minifications
 $ npm run build
 
-
 # build icon fonts
 $ npm run build:icons
 
-
 # preview fractal
 $ npm run preview:fractal
-
 
 # analyze bundle - set bundleAnalyzer to tru (see Developer Settings)
 $ npm run preview:analyze
 ```
 
 ### Linting
+
 > [eslint](https://eslint.org/)
 > [stylelint](https://stylelint.io/)
 
@@ -68,7 +66,8 @@ $ npm run lint:css
 ## Configuration
 
 ### Webpack
-Webpack settings can be done in `config/settings.webpack.js`
+
+Webpack setting's can be done in `config/settings.webpack.js`
 
 ### Fractal
 **Many core fuctions of Fractal are not longer working**, because of Namespacing, f.e:
@@ -78,9 +77,11 @@ Webpack settings can be done in `config/settings.webpack.js`
 see: `fractal.config.js`, `tsconfig.json`, `settings.webpack.js`
 
 #### Folders
+
 A Folder always needs to be written in plural "buttons", because of namespacing issues.
 
 ### Developer Settings
+
 Developer settings can be done in `developer.config.js`. First duplicate `developer.config.js.tmpl` and rename it to `developer.config.js`.
 
 | Name           | Type | Default    | Categorie | Info                                                                             |
@@ -93,4 +94,5 @@ Developer settings can be done in `developer.config.js`. First duplicate `develo
 
 
 ### Vscode Settings
+
 Duplicate `.vscode.tmpl` and rename it to `.vscode`.
